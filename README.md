@@ -1,1 +1,1 @@
-# NexBlock - Crypto App ₿🚀
+# NexBlock - Crypto App 📈🚀🌐
