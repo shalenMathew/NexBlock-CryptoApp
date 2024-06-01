@@ -5,6 +5,9 @@
 
 **It follows MVVM-Clean architecture**
 
+***Install the apk from here 👇***
+
+
 ## Built With 🛠
 - Kotlin
 - Flow
