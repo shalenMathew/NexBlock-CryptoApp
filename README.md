@@ -1,2 +1,2 @@
 # NexBlock - Crypto App 📈🚀🌐
-![App Screenshot](https://github.com/shalenMathew/MovieFlix_App/blob/master/images/MoviFlix%20Banner%202.png)
+![App Screenshot](https://github.com/shalenMathew/NexBlock-CryptoApp/blob/master/images/crypto_banner.png)
