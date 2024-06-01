@@ -7,7 +7,7 @@
 
 ***Install the apk from here 👇***
 
-![Static Badge](https://img.shields.io/badge/NexBlock-APK-red?logo=android)
+[![Static Badge](https://img.shields.io/badge/NexBlock-APK-red?logo=android)](https://github.com/shalenMathew/NexBlock-CryptoApp/releases/tag/v1.0)
 
 ## Built With 🛠
 - Kotlin
