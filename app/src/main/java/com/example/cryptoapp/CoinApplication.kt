@@ -7,4 +7,3 @@ import dagger.hilt.android.HiltAndroidApp
 class CoinApplication: Application() {
 }
 
-//hi
