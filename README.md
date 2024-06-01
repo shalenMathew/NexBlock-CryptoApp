@@ -20,8 +20,9 @@
 https://github.com/shalenMathew/NexBlock-CryptoApp/assets/119736953/de94f5d2-c3e7-4a3b-82da-ae925a63277e
 
 ## Contribution 🤝
-If your new to contribution and want to practice contribution you can do it here or u can raise issue if you want to make any improvements
-[contribution guidelines](CONTRIBUTING.md)
+- If your new to open source and want to play around with contribution you can do it here or u can raise issue if you want to make any improvements or fix any bugs
+- Tip for beginners : Try to fix small bugs and dont get overwhelmed by the source code , take your time... Start by making small fixes or making small changes 👍
+- Read [contribution guidelines](CONTRIBUTING.md) before contributing
 
 ## Contact 📧
 Connect me using shalenmj@gmail.com
