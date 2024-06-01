@@ -6,6 +6,8 @@
 **It follows MVVM-Clean architecture**
 
 ***Install the apk from here 👇***
+![Static Badge](https://img.shields.io/badge/NexBlock-APK-red?logo=android&labelColor=black)
+
 
 
 ## Built With 🛠
