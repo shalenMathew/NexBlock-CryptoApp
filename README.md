@@ -20,6 +20,15 @@
 - Coil
 - Retrofit
 
+ ## Features ⚙️
+ 
+ - Discover list of coins
+- With their live prices
+- Details about the coin
+- Navigate to official site of the coin
+- Download the white paper
+- Know the team members working on the coin
+
 ## App demo 📽️
 https://github.com/shalenMathew/NexBlock-CryptoApp/assets/119736953/de94f5d2-c3e7-4a3b-82da-ae925a63277e
 
