@@ -11,7 +11,13 @@ import javax.inject.Inject
 class CoinRepositoryImpl
 //@Inject constructor -> no need to use this as we providing the  instance of this class in module if we r using this annotation then we
 // dont need to use provide fun in module but we need to Use @Bind annotation to tell hilt how to instantiate the interface
+// for more understanding look at InvestIq app
     (private val coinApi: CoinApi):CoinRepository {
+
+
+        //  *** mistake here here i am returning my data as data models which is wrong
+        // should also response and io handling should be handled in this layer
+//        .. might work on it later ***
 
     override suspend fun getCoinList(): List<CoinDto> {
         return  coinApi.getCoinList()

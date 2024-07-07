@@ -75,6 +75,7 @@ fun CoinDetailScreen(
             LazyColumn(modifier=Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(10.dp)
             ){
+
                 item {
                     Row(verticalAlignment = Alignment.CenterVertically){
 

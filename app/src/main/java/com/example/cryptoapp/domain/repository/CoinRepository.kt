@@ -6,6 +6,9 @@ import com.example.cryptoapp.data.remote.dto.coinListWithPriceDto.CoinPriceDto
 
 interface CoinRepository {
 
+    //  ***  small mistake CoinDto is is an data model rather we should have the domain model Coin
+    // will fix it later ***
+
    suspend fun getCoinList():List<CoinDto>
 
     suspend fun getCoinById(coinId:String):CoinDetailDto
