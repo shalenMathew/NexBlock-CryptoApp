@@ -13,7 +13,6 @@
 - Kotlin
 - Flow
 - Coroutines
-- Flow
 - MVVM-Clean Architecture
 - Hilt
 - Jetpack compose
