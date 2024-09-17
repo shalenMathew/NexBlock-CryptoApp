@@ -10,7 +10,7 @@ U can also raise issue if u encounter any bugs or have a suggestion for any new 
 In the end have fun thats what matters!!!
 
 Contributing:
-Open issue regarding proposed change.
+Open an issue regarding proposed change.
 If your proposed change is approved, Fork this repo and do changes.
 Open PR. Add nice description in PR.
 You're done!
