@@ -3,7 +3,7 @@
 
 **NexBlock is a crypto app which uses coinpaprika api for remote data and jetpack compose for ui**
 
-**It follows MVVM-Clean architecture**
+**It follows MVVM+Clean architecture**
 
 ***Install the apk from here 👇***
 
