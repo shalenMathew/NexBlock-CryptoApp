@@ -1,5 +1,8 @@
 package com.example.cryptoapp.domain.usecases.getCoinListUseCase
 
+import androidx.fragment.app.Fragment
+import com.example.cryptoapp.BlankFragment.Companion
+import com.example.cryptoapp.BlankFragment.Companion.newInstance
 import com.example.cryptoapp.common.Resource
 import com.example.cryptoapp.domain.models.coinList.Coin
 import com.example.cryptoapp.domain.models.coinPriceList.CoinPrice
@@ -18,9 +21,7 @@ class GetCoinListUseCase @Inject constructor(private val repository: CoinReposit
         try {
             emit(Resource.Loading())
 
-//            val coinList = repository.getCoinList().map {
-//                it.toCoin()
-//            }
+            /** small correction here mapping from dto to domain model and exception handling should be done in data layer */
 
             val coinPriceList = repository.getCoinListByPrice().map {
                 it.toCoinPrice()

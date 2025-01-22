@@ -4,6 +4,9 @@ import com.example.cryptoapp.data.remote.api.CoinApi
 import com.example.cryptoapp.data.remote.dto.coinListDto.CoinDto
 import com.example.cryptoapp.data.remote.dto.coinDetailDto.CoinDetailDto
 import com.example.cryptoapp.data.remote.dto.coinListWithPriceDto.CoinPriceDto
+import com.example.cryptoapp.domain.models.coinDetail.CoinDetail
+import com.example.cryptoapp.domain.models.coinList.Coin
+import com.example.cryptoapp.domain.models.coinPriceList.CoinPrice
 import com.example.cryptoapp.domain.repository.CoinRepository
 import javax.inject.Inject
 
@@ -15,15 +18,12 @@ class CoinRepositoryImpl
     (private val coinApi: CoinApi):CoinRepository {
 
 
-        //  *** mistake here here i am returning my data as data models which is wrong
-        // should also response and io handling should be handled in this layer
-//        .. might work on it later ***
 
     override suspend fun getCoinList(): List<CoinDto> {
         return  coinApi.getCoinList()
     }
 
-    override suspend fun getCoinById(coinId: String): CoinDetailDto {
+    override suspend fun getCoinById(coinId: String): CoinDetailDto{
         return coinApi.getCoinById(coinId)
     }
 
